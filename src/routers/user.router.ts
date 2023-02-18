@@ -8,6 +8,7 @@ const AngularRouter = express.Router();
 // });
 
 AngularRouter.get('/getUserList', UserController.getUserList);
+AngularRouter.get('/getUser/:id', UserController.getUser);
 
 
 export default AngularRouter;
